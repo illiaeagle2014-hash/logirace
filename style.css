@@ -1,0 +1,136 @@
+
+header{
+    box-shadow: white 0.2em 0.3em 0.2em;
+    
+    border: 5px solid black;
+    border-radius: 40px;
+}
+.st{
+    text-align: center;
+    color: white;
+letter-spacing: 10px;
+text-shadow: black 0.2em 0.3em 0.2em;
+    
+}
+.ht{
+     text-align: center;
+    color: white;
+margin-bottom: 15px;
+letter-spacing: 8px;
+text-shadow: black 0.2em 0.3em 0.2em;
+    
+    
+}
+body{
+    
+    font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    background-color:#ba2b07 ;
+     height:600px ;
+    background-image: url("тт.avif");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: repeat;
+    border-radius: 40px;
+    margin: 10px;
+    height: 100vh;
+}
+.bn {
+     width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  margin-left: 320px;
+  
+  
+}
+
+.bn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #ff2200;
+}
+
+@keyframes marsGlow {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+.gg{
+    color: white;
+    text-align: center;
+}
+.photo{
+    width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 40px;
+    border:5px solid black ;
+    box-shadow: 8px 8px 8px 8px white;
+    
+}
+iframe{
+    border-radius: 40px;
+    border:5px solid black ;
+    box-shadow: 8px 8px 8px 8px white;
+    margin-left: 80px;
+    
+}
+p{
+    font-size:20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.2em 0.3em 0.2em  black;
+}
+h1{
+    font-size:20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.2em 0.3em 0.2em  black;
+    
+}
+h3{
+    font-size:20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.2em 0.3em 0.2em  black;
+}
+h2{
+    font-size:20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.2em 0.3em 0.2em  black;
+}
+footer{
+    text-shadow: 0.2em 0.3em 0.2em  black;
+    border: 4px solid black;
+    border-radius: 40px;
+}
+p:first-letter{
+    font-size: 50px;
+    color: red;
+}
+h3:first-letter{
+    font-size: 50px;
+    color: red;
+}
+h2:first-letter{
+    font-size: 50px;
+    color: red;
+}
+h1:first-letter{
+    font-size: 50px;
+    color: red;
+}
